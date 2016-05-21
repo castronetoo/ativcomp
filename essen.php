@@ -1,7 +1,10 @@
+<?php
+
+function cabecalho()
+{
+    echo <<< HTML
 <!DOCTYPE html>
-
 <html>
-
 <head>
 
     <meta charset="utf-8">
@@ -30,11 +33,17 @@
             </ul>
         </div>
     </nav>
-    <div class="container text-center">
-        <p>Testando o teste!</p>
-    </div>
+
+HTML;
+}
+
+function rodape()
+{
+    echo <<< HTML
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 </body>
-
 </html>
+
+HTML;
+}
